@@ -22,3 +22,25 @@ Set up a data ingestion system to fetch messages from multiple Ethiopian-based T
 
 5. **Data Storage**:
    - Store preprocessed data in a structured format (e.g., database, JSON files) for further analysis.
+
+
+# Task-3: Named Entity Recognition (NER) Fine-Tuning for Amharic Telegram Messages
+
+## Objective
+
+This project aims to fine-tune a Named Entity Recognition (NER) model to extract key entities (e.g., products, prices, and locations) from Amharic Telegram messages. The fine-tuning is done using pre-trained models like `bert-tiny-amharic`, `XLM-Roberta`, or `afroxmlr`, which are well-suited for multilingual tasks, including Amharic.
+
+## Setup
+
+### Requirements
+
+- **Google Colab** or any environment with GPU support for faster training.
+- **Python 3.x** (preferably 3.7 or higher)
+- **CUDA 10.1 or higher** for GPU support (if using local environment).
+- **Hugging Face Transformers**
+- **Datasets** library
+
+### Install Dependencies
+
+
+
